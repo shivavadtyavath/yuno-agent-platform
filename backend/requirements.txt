@@ -1,0 +1,34 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+sqlalchemy==2.0.30
+alembic==1.13.1
+pydantic==2.7.1
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+
+# LangGraph + LangChain (Python 3.12 compatible)
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+openai>=1.50.0
+
+# DuckDuckGo search (free, no API key) — version without Rust deps
+duckduckgo-search==5.3.1
+
+# Telegram
+python-telegram-bot==21.2
+
+# Utilities
+httpx==0.27.0
+websockets==12.0
+apscheduler==3.10.4
+tiktoken==0.7.0
+aiofiles==23.2.1
+python-multipart==0.0.9
+numpy==1.26.4
+
+# Testing
+pytest==8.2.1
+pytest-asyncio==0.23.7

@@ -1,0 +1,42 @@
+# ─── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+env/
+
+# ─── Node.js ────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+frontend/dist/
+frontend/node_modules/
+
+# ─── Databases & Storage ────────────────────────────────────────────────────
+*.db
+*.sqlite3
+chroma_data/
+backend/chroma_data/
+backend/test_memory/
+test_memory/
+
+# ─── Environment & Secrets ──────────────────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.share
+
+# ─── IDE & System ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
